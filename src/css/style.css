@@ -58,7 +58,6 @@ body{
 }
 
 .catalogo{
-    /* background-color: red; */
     width: 375pxpx;
     height: 700px;
 
@@ -94,15 +93,11 @@ body{
 }
 
 .dia-da-semana1 span{
-    /* background-color: #d5d5d5; */
     color: #293845;
 
     position: absolute;
     top: 170px;
     left: 24px;
-
-    /* display: flex;
-    align-items: center; */
 
     font-style: normal;
     font-weight: normal;
@@ -117,9 +112,6 @@ body{
     position: absolute;
     top: 170px;
     left: 150px;
-
-    /* display: flex;
-    align-items: center; */
 
     font-style: normal;
     font-weight: normal;

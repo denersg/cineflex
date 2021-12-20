@@ -1,6 +1,5 @@
-import { Fragment } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Corpo from "./corpo";
+import Filmes from "./filmes";
 import Sessoes from "./sessoes";
 
 export default function App(){
@@ -8,8 +7,8 @@ export default function App(){
         <>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Corpo/>}></Route>
-                <Route path="/sessoes" element={<Sessoes/>}></Route>
+                <Route path="/" element={<Filmes/>}></Route>
+                <Route path="/sessoes/:idFilme" element={<Sessoes/>}></Route>
             </Routes>
         </BrowserRouter>
         </>
